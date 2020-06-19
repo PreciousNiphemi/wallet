@@ -24,7 +24,7 @@ function validate(){
 		errorMsg.textContent = "invalid phone number"
 		return false;
 	}
-	let url = "https://api.wallets.africa/bills/airtime/purchase"
+	let url = "https:sandbox.wallets.africa/bills/airtime/purchase"
 	let data = {
 		"Code": network,
 		"Amount": amount,
